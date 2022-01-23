@@ -1,0 +1,16 @@
+.card
+{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.card.completed
+{
+    opacity: 0.5;
+}
+
+.card.completed > h2
+{
+    text-decoration: line-through;
+}
